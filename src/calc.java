@@ -83,7 +83,7 @@ public class calc {
     }
 
     static int divide(int x, int y) {
-        return x / y;
+        return (int) Math.round(x / y);
     }
 
     public enum Roman {
