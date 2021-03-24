@@ -33,6 +33,9 @@ public class calc {
                     case "*":
                         System.out.println(toRoman(multiply(x, y)));
                         break;
+                    case "/":
+                        System.out.println(toRoman(divide(x, y)));
+                        break;
                 }
             } else if (contains(substr1) == false && contains(substr2) == false) {
                 int x = Integer.parseInt(substr1);
@@ -55,6 +58,9 @@ public class calc {
                         break;
                     case "*":
                         System.out.println(multiply(x, y));
+                        break;
+                    case "/":
+                        System.out.println(divide(x, y));
                         break;
                 }
             } else System.out.println("Неправильная запись выражения");
